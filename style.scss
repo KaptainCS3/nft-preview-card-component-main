@@ -121,7 +121,7 @@ body {
 @media screen and (min-width: 200px) and (max-width: 375px) {
     .container {
         width: 300px;
-        height: 520px;
+        height: 530px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -137,7 +137,7 @@ body {
 @media screen and (min-width: 376px) {
     .container {
         width: 300px;
-        height: 520px;
+        height: 530px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -178,7 +178,7 @@ body {
 
 .footer {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -194,4 +194,22 @@ body {
 
 .NFT:hover {
     cursor: pointer;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    margin-top: 100vh;
+}
+.stats{
+    border-bottom: 0.5px solid $veryDarkblue;
+    padding: 20px 0;
 }

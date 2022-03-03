@@ -126,7 +126,7 @@ body {
 @media screen and (min-width: 200px) and (max-width: 375px) {
   .container {
     width: 300px;
-    height: 520px;
+    height: 530px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -142,7 +142,7 @@ body {
 @media screen and (min-width: 376px) {
   .container {
     width: 300px;
-    height: 520px;
+    height: 530px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,7 +185,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -205,5 +205,29 @@ body {
 
 .NFT:hover {
   cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.attribution a {
+  color: #3e52a3;
+  margin-top: 100vh;
+}
+
+.stats {
+  border-bottom: 0.5px solid #2f415b;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
