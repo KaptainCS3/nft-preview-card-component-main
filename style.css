@@ -97,7 +97,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px 0;
+  padding: 20px 0;
+  border-bottom: 0.5px solid #2f415b;
 }
 
 .stats .ETH {
@@ -160,10 +161,6 @@ body {
   padding-left: 10px;
 }
 
-.horizon {
-  border-top: 0.1px solid #8bacda;
-}
-
 .creat {
   padding-right: 30px;
 }
@@ -224,10 +221,5 @@ body {
 .attribution a {
   color: #3e52a3;
   margin-top: 100vh;
-}
-
-.stats {
-  border-bottom: 0.5px solid #2f415b;
-  padding: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */

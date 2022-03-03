@@ -96,8 +96,8 @@ body {
 .stats {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
-
+    padding: 20px 0;
+    border-bottom: 0.5px solid $veryDarkblue;
     .ETH {
         color: $cyan;
     }
@@ -155,10 +155,6 @@ body {
     padding-left: 10px;
 }
 
-.horizon {
-    border-top: .1px solid $softBlue;
-}
-
 .creat {
     padding-right: 30px;
 
@@ -208,8 +204,4 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
     margin-top: 100vh;
-}
-.stats{
-    border-bottom: 0.5px solid $veryDarkblue;
-    padding: 20px 0;
 }
